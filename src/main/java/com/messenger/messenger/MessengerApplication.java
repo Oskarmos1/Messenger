@@ -10,7 +10,12 @@ public class MessengerApplication {
         SpringApplication.run(MessengerApplication.class, args);
     }
 
-    public void testFunction(){
+    public void testFunction() {
         System.out.println("test");
     }
+    public void testFunction2(){
+        System.out.println("test2");
+
+    }
+
 }
