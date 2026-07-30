@@ -1,4 +1,8 @@
 package com.messenger.messenger;
 
-public class MessengerRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface MessengerRepository extends JpaRepository<Message, Long> {
 }
